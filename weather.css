@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Passions+Conflict&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#temp{
+    font-size: 70px;
+}
+
+.parent{
+    max-width: 100% !important;
+    height: 100vh;
+    background-image: url('./images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.dis{
+    background-color: rgba(168, 200, 223, 0.432);
+
+    border: 2px solid rgb(253, 250, 250);
+}
+.search{
+    margin-left: -41px;
+}
