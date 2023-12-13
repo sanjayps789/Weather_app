@@ -46,6 +46,8 @@ function citySearch() {
                     ?'<img src="./images/clouds.png" alt="">'
                     :weat=="snow"
                     ?'<img src="./images/snow.png" alt="">'
+                    :weat=="clear"
+                    ?'<img src="./images/clear.png" alt="">'
                     :'<img src="./images/cloud-sun.jpg" alt="">'
                 }
                         <h4 class="">${weat}</h4>
@@ -102,6 +104,8 @@ function getInfo(position) {
                     ?'<img src="./images/clouds.png" alt="">'
                     :weat=="snow"
                     ?'<img src="./images/snow.png" alt="">'
+                    :weat=="clear"
+                    ?'<img src="./images/clear.png" alt="">'
                     :'<img src="./images/cloud-sun.jpg" alt="">'
                 }
                         <h4 class="">${weat}</h4>

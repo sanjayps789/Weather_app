@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 #temp{
@@ -25,6 +26,7 @@
 }
 .search{
     margin-left: -41px;
+    transition: 0.1s;
 }
 
 @media screen and (max-width: 600px) {
