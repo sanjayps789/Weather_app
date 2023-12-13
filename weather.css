@@ -12,6 +12,7 @@
 
 .parent{
     max-width: 100% !important;
+    height: 100vh;
     background-image: url('./images/bg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,6 +28,9 @@
 }
 
 @media screen and (max-width: 600px) {
+    .parent{
+        height: auto;
+    }
     .col-lg-6{
         margin-bottom: 20px;
         padding:10px;

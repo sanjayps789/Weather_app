@@ -6,10 +6,21 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-background-color: #000202;
+/* background: linear-gradient(160deg,  #3fa5ee,#000000); */
+background-image: url('images/bg1.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
 }
 .icon i{
 font-size: 100px;
 }
 
+
+@media screen and (max-width: 766px) {
+.w-25{
+    width: 150px !important;
+}
+}
 
