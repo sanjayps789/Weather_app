@@ -12,7 +12,6 @@
 
 .parent{
     max-width: 100% !important;
-    height: 100vh;
     background-image: url('./images/bg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,3 +25,11 @@
 .search{
     margin-left: -41px;
 }
+
+@media screen and (max-width: 600px) {
+    .col-lg-6{
+        margin-bottom: 20px;
+        padding:10px;
+        backdrop-filter: blur(10px);
+    } 
+  }
